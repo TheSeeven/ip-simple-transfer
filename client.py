@@ -1,12 +1,4 @@
-import socket, time
-from requests import get
-
-EXTERNAL_IP = "Problem getting ip adress"
-try:
-    EXTERNAL_IP = get("https://api.ipifsy.org").text
-except:
-    pass
-
+# import socket, time
 
 # HOST = ""  # The server's hostname or IP address
 # PORT = 5003  # The port used by the server
@@ -20,15 +12,12 @@ except:
 #         print("Conencted")
 #         conn.sendall(f.read())
 
-
 # # print("Received", repr(data))
-
 
 # def getMB(mb):
 #     return mb * 1024 * 1024
 
 # print(f.read(getMB(50)))
-
 
 # file_exists = os.path.isfile("ipLists.json")
 # if file_exists:
@@ -42,10 +31,9 @@ except:
 #     with open("ipLists.json", "w+") as file:
 #         file.write("{}")
 
-
-addIpToRecents("dsadasdas")
-addIpToContacts("edy2", "dasds2a")
-z = getRecents()
-x = getContacts()
-print(z)
-print
+# addIpToRecents("dsadasdas")
+# addIpToContacts("edy2", "dasds2a")
+# z = getRecents()
+# x = getContacts()
+# print(z)
+# print
